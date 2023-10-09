@@ -1,0 +1,183 @@
+
+
+.home {
+  font-size: 2rem;
+
+}
+
+.heading {
+  font-size: .40rem;
+}
+
+.para {
+  font-size: .60rem;
+}
+.notification-page{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/* .notification-bell {
+  visibility: hidden;
+} */
+
+.study-material .items {
+  width: 80vw;
+}
+
+.study-material {
+  grid-template-columns: repeat(1, auto);
+  margin-left: 10%;
+
+}
+
+.nabbar ul li a {
+  font-size: 1rem;
+  z-index: 30;
+  /* border: 2px solid #333;
+  padding: 5px 10px ; */
+  
+}
+nav.nabbar{
+  /* display: none; */
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.nabbar ul{
+  margin-top: 100px;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  height: 100vh;
+  z-index: 100;
+  background-color: gold;
+  visibility: hidden;
+}
+.nabbar ul li {
+  margin-bottom: 15px;
+  list-style: none;
+  /* margin: 20px 30px; */
+}
+
+.nabbar-icon {
+  visibility: visible;
+  top: 50px;
+  right: 50%;
+}
+
+#HOME {
+  height: 109vh;
+}
+
+.moment {
+  border: 5px solid gold;
+  height: 230px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px 0px; */
+}
+
+.moment-1::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img1.jpg)no-repeat center center/cover;
+}
+
+.moment-2::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img2.jpg)no-repeat center center/cover;
+}
+
+.moment-3::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img3.jpg)no-repeat center center/cover;
+}
+
+.moment-4::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img4.jpg)no-repeat center center/cover;
+}
+
+.moment-5::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img5.jpg)no-repeat center center/cover;
+}
+
+.moment-6::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img6.jpg)no-repeat center center/cover;
+}
+
+.moment-7::before {
+  content: "";
+  height: 230px;
+  width: 350px;
+  position: absolute;
+  background: url(../static/Images/moments/img7.jpg)no-repeat center center/cover;
+}
+
+.post,
+.names {
+  border: 2px solid gold;
+  border-radius: 10;
+  width: 20vh;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+  font-size: .50rem;
+  /* padding: 0px 20px; */
+}
+.small-nav-btn{
+  /* display: block; */
+  visibility: visible;
+  margin-top: 10px;
+  /* text-align: center; */
+  cursor: pointer;
+}
+.small-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.small-nav-btn2{
+  color: black;
+  z-index: 20;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  visibility: hidden;
+  cursor: pointer;
+}
+.notification-bell{
+  position: absolute;
+  top: 90px;
+  right: 10px;
+  font-size: 1rem;
+}

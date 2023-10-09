@@ -1,0 +1,277 @@
+#home span {
+  font-size: 1.9rem;
+}
+
+.home {
+  font-size: 1.2rem;
+
+}
+
+.heading {
+  font-size: .60rem;
+}
+
+.para {
+  font-size: .40rem;
+}
+
+.notification-bell {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  cursor: pointer;
+}
+
+#home::before {
+  background: url(/static/Images/Portraite.jpg)no-repeat center center/cover;
+
+}
+
+.study-material {
+  grid-template-columns: repeat(1, auto);
+  margin-left: 20%;
+
+}
+
+.study-material .items {
+  width: 60vw;
+}
+
+.study-item {
+  margin-top: 50px;
+  z-index: -2;
+  position: relative;
+
+}
+
+.nabbar ul {
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.nabbar::before {
+  content: "";
+  height: 80px;
+  /* top: 0px; */
+  width: 100vw;
+  background-color: gold;
+  position: absolute;
+  padding-top: 40px;
+  z-index: -2;
+  border-bottom: 1px solid black;
+}
+
+.nabbar ul li {
+  list-style: none;
+  /* margin: 20px 50px; */
+}
+
+.nabbar ul li a {
+  font-size: .60rem;
+
+}
+
+.It,
+.security {
+  width: 100vw;
+}
+
+#selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2050px;
+}
+
+nav.nabbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 45px;
+  /* visibility: hidden; */
+  margin-top: 0px;
+}
+
+.nabbar-icon {
+  visibility: visible;
+  right: 60px;
+}
+
+.school-name {
+  height: 80px;
+}
+
+#check:checked~nav.nabbar {
+  visibility: visible;
+}
+
+footer {
+  font-size: .90rem;
+}
+
+#HOME {
+  height: 109vh;
+}
+
+#Contact-box {
+  width: 95%;
+}
+
+#Contact-box label {
+  position: relative;
+  left: 5px;
+  top: 30px;
+}
+
+.btn2 {
+  width: 40%;
+  margin: 20px 30%;
+}
+
+#Contact-box textarea {
+  width: 80%;
+  height: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+.form-group input {
+  width: 70%;
+}
+
+.Heading-name {
+  margin-top: 50px;
+}
+
+.IT,
+.Security,
+.About-Vocational {
+  width: 85vw;
+  padding: 5px 10px;
+  height: 70vh;
+}
+
+#moments-HOME {
+  grid-template-columns: repeat(1, auto);
+  gap: 1vh;
+
+}
+
+.moment {
+  border: 5px solid gold;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px 0px; */
+}
+
+.moment-1::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img1.jpg)no-repeat center center/cover;
+}
+
+.moment-2::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img2.jpg)no-repeat center center/cover;
+}
+
+.moment-3::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img3.jpg)no-repeat center center/cover;
+}
+
+.moment-4::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img4.jpg)no-repeat center center/cover;
+}
+
+.moment-5::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img5.jpg)no-repeat center center/cover;
+}
+
+.moment-6::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img6.jpg)no-repeat center center/cover;
+}
+
+.moment-7::before {
+  content: "";
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  background: url(../static/Images/moments/img7.jpg)no-repeat center center/cover;
+}
+
+#moments-HOME {
+  margin-left: 20%;
+}
+
+footer .links {
+  /* margin-left: 50px; */
+  margin-top: 20px;
+}
+
+.links a {
+  margin: 5px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+footer {
+  flex-direction: column;
+  font-size: .60rem;
+}
+.designer {
+  /* padding-left: 100px; */
+  position: relative;
+  left: 0px;
+  margin-top: 10px;
+}
+
+.post,
+.names {
+  border: 2px solid gold;
+  border-radius: 10;
+  width: 20vh;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+
+.notify-btn {
+  top: 20px;
+  left: 20px;
+  color: gold;
+}
